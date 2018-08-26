@@ -1,5 +1,18 @@
 # Quantis development tree
 
+----
+
+# About the repo
+
+**This is a personal fork of the [official Quantis repository](https://github.com/QuantisNetwork/Quantis-public). It aims to fix a few things for my own use: use it at your own risks.**
+
+Current changes from :
+ - Fix chmod of executable scripts.
+ - Allow comments in `masternodes.conf`
+ - Fix a graphic bug on Dashboard in Darksend panel.
+
+----
+
 TO build use
 
 Build with:  make -j4 -f makefile.unix RELEASE=1
